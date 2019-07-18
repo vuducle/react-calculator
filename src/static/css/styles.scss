@@ -1,0 +1,28 @@
+* {
+    font-weight: bold;
+    margin:0; padding: 0; border:none;
+}
+.panel-buttons-grid {
+    display: grid; 
+    grid-template-rows:25% 25% 25% 25%; 
+    grid-template-columns:25% 25% 25% 25%; 
+    height: 85vh;
+}
+
+.result-panel {
+        width: 100vw;
+        height:15vh;
+        font-size:10vh;
+        background-image: linear-gradient(to top, #39b7ee, #63c5ee, #86d3ee, #a6e0f0, #c6ecf4);
+}
+
+.number-button {
+    background-image: linear-gradient(to right top, #33aade, #68a9ee, #9aa6f5, #c8a1f0, #f09be1);
+    font-size: 15vh;
+    color: white;
+}
+
+.operator-button {
+    background-image: linear-gradient(to right top, #de7d33, #f87860, #ff7b8e, #ff88ba, #f09be1);
+    font-size: 15vh;  color: white;
+}
